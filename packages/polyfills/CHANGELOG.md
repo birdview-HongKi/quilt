@@ -7,6 +7,10 @@ and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 <!-- ## Unreleased -->
 
+### Fixed
+
+- Replace `require` statement with `import` statement (except for the jest polyfills wrap in if statement) so we get a proper stric ESM module.
+
 ## 3.0.1 - 2021-05-31
 
 ### Fixed
